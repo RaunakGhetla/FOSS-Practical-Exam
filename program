@@ -1,0 +1,14 @@
+//Addition of Two Numbers
+//Accepting values from user
+#include <iostream.h>
+#include <conio.h>
+void main ()
+{
+clrscr();
+int a,b,sum;
+printf("Enter Two Numbers\n");
+scanf("%d %d",&a,&b);
+sum=a+b;
+printf("The sum of the entered numbers is=%d",sum);
+getch ();
+}
